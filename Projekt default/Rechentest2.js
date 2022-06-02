@@ -62,8 +62,8 @@ var results = [];
 function initCalculations1() {
 	var n3, n4, Element, aa;
 	for( aa = 0; aa <=4; aa++ ){
-		n3=Math.floor(Math.random() *50);
-		n4=Math.floor(Math.random() *20);
+		n3=Math.floor(Math.random() *70);
+		n4=Math.floor(Math.random() *10);
 		results.push(n3-n4);
 		Element = document.getElementById("su"+aa);
 		Element.innerHTML = n3 + "-" + n4 + "=";
